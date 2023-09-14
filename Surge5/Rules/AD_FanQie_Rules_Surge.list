@@ -1,0 +1,36 @@
+# > wephoon
+# > 番茄小说广告拦截
+# > 最新更新时间 2023.08.18
+
+DOMAIN-SUFFIX, pglstatp-toutiao.com, reject
+DOMAIN-SUFFIX, byteorge.com, reject
+DOMAIN-SUFFIX, bytegoofy.com, reject
+DOMAIN-SUFFIX, bytedance.com, reject
+DOMAIN-SUFFIX, zijieapi.com, reject
+
+DOMAIN, p6-ad-sign.byteimg.com, reject
+DOMAIN, p9-ad-sign.byteimg.com, reject
+DOMAIN, i.snssdk.com, reject
+DOMAIN, i-lq.snssdk.com, reject
+DOMAIN, dig.bdurl.net, reject
+DOMAIN, activity-ag.awemeughun.com, reject
+DOMAIN, mcs.snssdk.com, reject
+DOMAIN, tnc3-alisc1.snssdk.com, reject
+DOMAIN, security-lq.snssdk.com, reject
+DOMAIN, tnc3-aliec2.snssdk.com, reject
+DOMAIN, is.snssdk.com, reject
+DOMAIN, msync-im1-vip6-std.easemob.com, reject
+DOMAIN, apd-pcdnwxlogin.teg.tencent-cloud.net, reject
+DOMAIN, api.iegadp.qq.com, reject
+DOMAIN, sf3-ttcdn-tos.pstatp.com, reject
+DOMAIN, *default.ixigua.com, reject
+DOMAIN, v6-novelapp.ixigua.com, reject
+DOMAIN, *novelapp.ixigua.com, reject
+DOMAIN, lf-sourcecdn-tos.bytegecko.com, direct
+
+ip-cidr, 49.71.37.101/32, reject
+ip-cidr, 117.71.105.23/32, reject
+ip-cidr, 218.94.207.205/32, reject
+ip-cidr, 117.92.229.188/32, reject
+ip-cidr, 101.36.166.16/32, reject
+ip-cidr, 180.96.2.114/32, reject
