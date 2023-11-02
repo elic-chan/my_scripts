@@ -2,9 +2,8 @@
 # > 机场列表
 # > 最新更新时间 2023.09.11
 
-# 在用
+DOMAIN,taishan.pro,PROXY
+DOMAIN,us.taishan.pro,DIRECT
 DOMAIN-KEYWORD,leensa,PROXY
 
-# 其它
-DOMAIN-KEYWORD,taishan,PROXY
 
